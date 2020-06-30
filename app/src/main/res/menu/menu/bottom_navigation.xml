@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/location_stats"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Location Stats" />
+    <item
+        android:id="@+id/Map"
+        android:icon="@drawable/ic_map_black_24dp"
+        android:title="Map" />
+    <item
+        android:id="@+id/random"
+        android:icon="@drawable/ic_loyalty_black_24dp"
+        android:title="random" />
+</menu>
