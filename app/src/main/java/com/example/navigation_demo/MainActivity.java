@@ -103,6 +103,14 @@ public class MainActivity extends AppCompatActivity {
                     switch (item.getItemId()) {
                         case R.id.location_stats:
                             return true;
+                        case R.id.savePlace:
+                            Intent icha=new Intent(getApplicationContext(),savePlace_activity.class);
+                            icha.putExtra("latitude",la);
+                            icha.putExtra("longitude",lo);
+                            startActivity(icha);
+                            overridePendingTransition(0, 0);
+                            return true;
+
                         case R.id.map:
                             Intent intent=new Intent(getApplicationContext(),MapsActivity.class);
                             intent.putExtra("latitude",la);
